@@ -1,4 +1,4 @@
-# Primera entrega proyecto grupal
+# Primera entrega proyecto grupal 
 
 ## Presentación del proyecto
  El proyecto se basa en la creación de una página web capaz de ofrecer y reproducir de forma gratuita música de cualquier artista. Nuestro objetivo es que los usuarios puedan disfrutar de sus canciones favoritas sin ningún impedimento y en una plataforma agradable. Como objetivo secundario queremos incentivar a los usuarios a que se registren en la aplicación con un perfil, de esta forma podríamos hacer mejores recomendaciones basándonos en los gustos de cada persona.
