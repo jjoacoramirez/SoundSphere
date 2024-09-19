@@ -1,0 +1,59 @@
+*{
+    font-family: "Jost";
+}
+
+body{
+    background-image: url(img/Fondo.jpg);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    padding: 10px;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-align: center;
+    width: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grupo-tarjetas{
+    display: flex;
+}
+
+.grupo-tarjetas .tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grupo-tarjetas button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
