@@ -113,16 +113,15 @@ body{
 .login-container{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 720px;
+    height: 992px;
+    width: 500px;
     align-items: center;
-    justify-content:space-between;
     background-color: rgba(31, 19, 41, 0.5);
-    padding-bottom: 500px;
-    padding: 300px;
 }
 
 .login-container img{
+    margin-top: 50px;
+    margin-bottom: 100px;
     height: 120px;
     width: 120px;
 }
@@ -131,11 +130,26 @@ body{
     width: 340px;
     height: 40px;
     background-color: #1f1329;
-    border-bottom:  solid #371652 1px;
+    border-bottom:  solid #371652 2px;
     border-radius: 10px;
     border-top: none;
     border-right: none;
     border-left: none;
+    margin-bottom: 30px;
+}
+
+.main .password{
+    margin-bottom: 20px;
+}
+
+.main #enviar{
+    color: white;
+}
+
+.main a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
 }
 
 .multimedia {
