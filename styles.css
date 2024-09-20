@@ -4,7 +4,12 @@
 
 body{
     background-image: url(img/Fondo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -36,20 +41,52 @@ body{
     text-decoration: none;
 }
 
+.nav .active{
+    font-weight: 700;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.grupo-tarjetas{
-    display: flex;
-}
-
-.grupo-tarjetas .tarjeta{
+.tarjetas-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.titulo img{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.grupo-tarjetas{
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-active img{
+    width: 220px;
 }
 
 .grupo-tarjetas button{
