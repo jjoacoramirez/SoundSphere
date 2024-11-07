@@ -156,7 +156,7 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #00000038;
+    background: #000000d1;
     padding: 10px 20px;
     border-radius: 10px 10px 0 0;
     display: flex;
@@ -220,7 +220,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     background-color: #555;
     border-radius: 5px;
     height: auto;
@@ -244,6 +244,6 @@ body{
 }
 
 #barra-volumen {
-    width: 80px;
+    width: 140px;
     height: 2px;
 }
