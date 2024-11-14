@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -24,112 +25,118 @@
             <div class="buscar">
                 <img src="img/Lupa.png" alt="">
             </div>
+        
+            <!-- First Carousel -->
             <div class="tarjetas-container">
                 <div class="titulo">
                     <p>Porque escuchaste <b>Colors - Crossfade</b></p>
                     <img src="img/Pause Button.png" alt="">
                 </div>
                 <div class="grupo-tarjetas">
-                    <button><img src="img/Arrow 2.png" alt=""></button>
-                        <div class="tarjeta">
-                            <img src="img/Coming Down.png" alt="">
-                            <b>Coming Down</b>
-                            <p>Emira Elfeky</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/So Sick.png" alt="">
-                            <b>I'm So Sick</b>
-                            <p>Flyleaf</p>
-                        </div>
-                        <div class="tarjeta-active">
-                            <img src="img/The Kill.png" alt="">
-                            <b>The Kill (Bury me)</b>
-                            <p>thirty Seconds To Mars</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/Diamond Eyes.png" alt="">
-                            <b>Diamond Eyes</b>
-                            <p>Deftones</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/Covet.png" alt="">
-                            <b>Covet</b>
-                            <p>Basement</p>
-                        </div>
-                    <button><img src="img/Arrow 1.png" alt="" class="logo-tarjeta"></button>
+                    <button class="left-button"><img src="img/Arrow 2.png" alt="Left"></button>
+                    <div class="tarjeta">
+                        <img src="img/Coming Down.png" alt="">
+                        <b>Coming Down</b>
+                        <p>Emira Elfeky</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/So Sick.png" alt="">
+                        <b>I'm So Sick</b>
+                        <p>Flyleaf</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/The Kill.png" alt="">
+                        <b>The Kill (Bury me)</b>
+                        <p>Thirty Seconds To Mars</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Diamond Eyes.png" alt="">
+                        <b>Diamond Eyes</b>
+                        <p>Deftones</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Covet.png" alt="">
+                        <b>Covet</b>
+                        <p>Basement</p>
+                    </div>
+                    <button class="right-button"><img src="img/Arrow 1.png" alt="Right"></button>
                 </div>
             </div>
+        
+            <!-- Second Carousel -->
             <div class="tarjetas-container">
                 <div class="titulo">
                     <p>Playlist <b>Veranito</b></p>
                     <img src="img/Pause Button.png" alt="">
                 </div>
                 <div class="grupo-tarjetas">
-                    <button><img src="img/Arrow 2.png" alt=""></button>
-                        <div class="tarjeta" id="items">
-                            <img src="img/Diles.png" alt="">
-                            <b>Diles Remix</b>
-                            <p>Bad Bunny</p>
-                        </div>
-                        <div class="tarjeta" id="items">
-                            <img src="img/NO me conoce.png" alt="">
-                            <b>No Me Conoce Remix</b>
-                            <p>Jhayco</p>
-                        </div>
-                        <div class="tarjeta-active" id="items">
-                            <img src="img/Un Verano Sin Ti.png" alt="">
-                            <b>Ojitos Lindos</b>
-                            <p>Bad Bunny</p>
-                        </div>
-                        <div class="tarjeta" id="items">
-                            <img src="img/Safaera.png" alt="">
-                            <b>Safaera</b>
-                            <p>Bad Bunny</p>
-                        </div>
-                        <div class="tarjeta" id="items">
-                            <img src="img/De Museo.png" alt="">
-                            <b>De Museo</b>
-                            <p>Bad Bunny</p>
-                        </div>
-                    <button><img src="img/Arrow 1.png" alt="" class="logo-tarjeta"></button>
+                    <button class="left-button"><img src="img/Arrow 2.png" alt="Left"></button>
+                    <div class="tarjeta">
+                        <img src="img/Diles.png" alt="">
+                        <b>Diles Remix</b>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/NO me conoce.png" alt="">
+                        <b>No Me Conoce Remix</b>
+                        <p>Jhayco</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Un Verano Sin Ti.png" alt="">
+                        <b>Ojitos Lindos</b>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Safaera.png" alt="">
+                        <b>Safaera</b>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/De Museo.png" alt="">
+                        <b>De Museo</b>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <button class="right-button"><img src="img/Arrow 1.png" alt="Right"></button>
                 </div>
             </div>
+        
+            <!-- Third Carousel -->
             <div class="tarjetas-container">
                 <div class="titulo">
                     <p>Porque te gusta el <b>Trap</b></p>
                     <img src="img/Pause Button.png" alt="">
-                </div>                
+                </div>
                 <div class="grupo-tarjetas">
-                    <button><img src="img/Arrow 2.png" alt=""></button>
-                        <div class="tarjeta">
-                            <img src="img/We dont trust you.png" alt="">
-                            <b>We Don't Trust You</b>
-                            <p>Metro boomin</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/Fukumean.png" alt="">
-                            <b>Fukumean</b>
-                            <p>Gunna</p>
-                        </div>
-                        <div class="tarjeta-active">
-                            <img src="img/XOTOURLIFE.png" alt="">
-                            <b>XO Tour LliF3</b>
-                            <p>Lil Uzi Vert</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/My Eyes.png" alt="">
-                            <b>My Eyes</b>
-                            <p>Travis Scott</p>
-                        </div>
-                        <div class="tarjeta">
-                            <img src="img/Breathe.png" alt="">
-                            <b>Breathe</b>
-                            <p>Yeat</p>
-                        </div>
-                    <button><img src="img/Arrow 1.png" alt="" class="logo-tarjeta"></button>
+                    <button class="left-button"><img src="img/Arrow 2.png" alt="Left"></button>
+                    <div class="tarjeta">
+                        <img src="img/We dont trust you.png" alt="">
+                        <b>We Don't Trust You</b>
+                        <p>Metro Boomin</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Fukumean.png" alt="">
+                        <b>Fukumean</b>
+                        <p>Gunna</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/XOTOURLIFE.png" alt="">
+                        <b>XO Tour Llif3</b>
+                        <p>Lil Uzi Vert</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/My Eyes.png" alt="">
+                        <b>My Eyes</b>
+                        <p>Travis Scott</p>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/Breathe.png" alt="">
+                        <b>Breathe</b>
+                        <p>Yeat</p>
+                    </div>
+                    <button class="right-button"><img src="img/Arrow 1.png" alt="Right"></button>
                 </div>
             </div>
-        </div>
+        </div>        
     </div>
 
     <div class="multimedia">
@@ -168,6 +175,6 @@
     </div>
 
 
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>

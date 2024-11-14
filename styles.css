@@ -139,10 +139,11 @@ body{
     opacity: 1;
 }
  
-.tarjeta-active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.tarjeta-hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #49007e69;
 }
  
 .tarjeta-active img{
@@ -217,6 +218,7 @@ body{
 }
  
 #progress{
+    appearance: none;
     -webkit-appearance: none;
     width: 100%;
     height: 6px;
@@ -322,7 +324,7 @@ body{
 }
  
 #volumen{
-    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
     height: 6px;
     background: #63427e;
