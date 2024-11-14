@@ -155,7 +155,7 @@ body{
     border: none;
     cursor: pointer;
 }
- 
+
 .login-container{
     display: flex;
     flex-direction: column;
@@ -164,14 +164,14 @@ body{
     align-items: center;
     background-color: rgba(31, 19, 41, 0.5);
 }
- 
+
 .login-container img{
     margin-top: 50px;
     margin-bottom: 100px;
     height: 120px;
     width: 120px;
 }
- 
+
 .main input {
     width: 340px;
     height: 40px;
@@ -183,21 +183,21 @@ body{
     border-left: none;
     margin-bottom: 30px;
 }
- 
+
 .main .password{
     margin-bottom: 20px;
 }
- 
+
 .main #enviar{
     color: white;
 }
- 
+
 .main a{
     color: white;
     text-decoration: none;
     margin-left: 10px;
 }
- 
+
 .multimedia {
     position: fixed;
     bottom: 0;
@@ -349,6 +349,159 @@ body{
     width: 80px;
     height: 2px;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #0a0016 !important;
+    border: 5px solid rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(67, 67, 67, 1);
+    text-align: center;
+}
+
+.close {
+    color: #ff0000;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form input {
+    margin-bottom: 20px;
+    background-color: #1f1329;
+    border-bottom:  solid #371652 2px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input.password {
+    margin-bottom: 30px;
+    background-color: #1f1329;
+    border-bottom:  solid #371652 2px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#enviar {
+    margin-top: 30px;
+}
+
+#loginButton {
+    display: block;              
+    width: 100%;                 
+    margin-top: 20px;            
+    padding: 10px;               
+    background-color: #371652;   
+    color: white;                
+    border: none;                
+    border-radius: 5px;          
+    cursor: pointer;             
+    font-weight: bold;           
+}
+
+#registerButton{
+    display: block;              
+    width: 100%;                 
+    margin-top: 20px;            
+    padding: 10px;               
+    background-color: #371652;   
+    color: white;                
+    border: none;                
+    border-radius: 5px;          
+    cursor: pointer;             
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form input {
+    color: #fff; 
+}
+
+form input::placeholder {
+    color: #aaa; 
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+.modal-content {
+    background-color: #333;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    color: #fff;
+}
+  
+.close-register {
+    color: #ff0000;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+#registerSubmitButton {
+    background-color: #371652;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#closeImage {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#closeImage img {
+    vertical-align: middle;
+    width: auto;
+    height: 20px;
+}
+
  
 @media screen and (max-width: 768px) {
     .main-container{
