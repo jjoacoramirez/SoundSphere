@@ -138,9 +138,12 @@
 
     <div class="multimedia">
         <div class="multimedia-container">
+            <audio id="cancion">
+                <source src="audio/colors-video.mp3">
+            </audio>
 
             <div class="musica-logo">
-                <img src="img\image 8.png" alt="foto-musica">
+                <img src="img\colors.png" alt="foto-musica" id="portada">
                 <div>
                     <span id="nombreMusica">Coloros</span>
                     <span id="nombreCantante">Crossfade</span>
@@ -150,21 +153,24 @@
 
             <div class="media-control">
                 <button id="volver"><img src="img\Previows Button.png" alt=""></button>
-                <button id="play-pause"><img src="img\Pause Button.png" alt=""></button>
+                <button onclick="playPause()" id="play-pause" class="play"></button>
                 <button id="siguiente"><img src="img\Next Button.png" alt=""></button>
             </div>
 
         </div>
 
         <div class="barra">
-            <img src="img\Rectangle 1.png" alt="">
+            <input type="range" value="0" id="progress">
+            <span id="progressTime">0:00/0:00</span>
             <div class="barra-progreso"></div>
         </div>        
 
         <div class="volumen">
             <img id="speaker" src="img\Speaker.png" alt="">
-            <img id="barra-volumen" src="img\Line 3.png" alt="barra">
+            <input type="range" id="volumen" min="0" max="100" value="50">
         </div>
     </div>
+
+<script src="scripts.js"></script>
 </body>
 </html>
