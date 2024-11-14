@@ -81,4 +81,15 @@ cancion.ontimeupdate = function(){
 prevBtn.addEventListener("click", previousSong);
 nextBtn.addEventListener("click", nextSong);
 
+$(document).ready(function() {
+    $(".tarjeta").hover(
+        function() {
+            $(this).addClass("tarjeta-hover");
+        },
+        function() {
+            $(this).removeClass("tarjeta-hover");
+        }
+    );
+});
+
 loadSong(cancionActualIndice);
